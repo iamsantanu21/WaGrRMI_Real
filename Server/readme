@@ -1,5 +1,5 @@
 javac *.java
-
+rmiregistry &
 java ChatServerMain
 
 netstat -an | grep 4000
