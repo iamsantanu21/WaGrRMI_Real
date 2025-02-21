@@ -1,0 +1,5 @@
+javac *.java
+
+java ChatServerMain
+
+netstat -an | grep 4000

@@ -1,0 +1,6 @@
+javac *.java
+rmiregistry &
+
+java ChatServerMain
+
+java ChatClientMain
